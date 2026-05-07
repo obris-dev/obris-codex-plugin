@@ -1,0 +1,31 @@
+{
+  "name": "obris",
+  "description": "Connect your Obris knowledge base to Codex. Access topics and knowledge via MCP, sync files to local directories via CLI.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Obris",
+    "url": "https://obris.ai"
+  },
+  "homepage": "https://obris.ai",
+  "repository": "https://github.com/obris-dev/obris-codex-plugin",
+  "license": "MIT",
+  "keywords": ["knowledge", "mcp", "sync", "obris"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Obris",
+    "shortDescription": "Your knowledge, in every Codex conversation.",
+    "longDescription": "Obris keeps your knowledge in one place and makes it available everywhere you talk to AI. This plugin gives Codex direct access to your Obris topics over MCP and bundles a CLI sync workflow so any directory can mirror a topic on disk.",
+    "developerName": "Obris",
+    "category": "Productivity",
+    "websiteURL": "https://obris.ai",
+    "privacyPolicyURL": "https://obris.ai/privacy",
+    "termsOfServiceURL": "https://obris.ai/terms",
+    "defaultPrompt": [
+      "List my Obris topics",
+      "Sync this directory to one of my Obris topics",
+      "Save this conversation back to Obris"
+    ],
+    "brandColor": "#8958FE"
+  }
+}
