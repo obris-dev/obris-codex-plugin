@@ -50,26 +50,30 @@ Provides:
 
 ## Install the plugin
 
-In a terminal, add the plugin's marketplace and install it:
+1. Register the marketplace from a terminal:
 
-```bash
-codex plugin marketplace add obris-dev/obris-codex-plugin
-```
+   ```bash
+   codex plugin marketplace add obris-dev/obris-codex-plugin
+   ```
 
-Then open the in-CLI plugin browser to confirm it's installed:
+2. Start a Codex session:
 
-```bash
-codex /plugins
-```
+   ```bash
+   codex
+   ```
+
+3. Inside Codex, run `/plugins`, tab to **Obris**, and select **Install
+   plugin**.
 
 For more on what `codex plugin marketplace add` does, see OpenAI's
 [Add a marketplace from the CLI](https://developers.openai.com/codex/plugins/build#add-a-marketplace-from-the-cli)
 docs.
 
-Plugin install is currently a Codex CLI feature. The Codex desktop app
-and the IDE extensions don't surface plugin management yet. If you use
-Codex through the desktop app or an IDE extension, connect Obris over
-MCP directly via an MCP connector instead.
+Plugin install runs through the Codex CLI, but once installed the
+plugin shows up in the Codex desktop app too. No separate install
+needed there. The IDE extensions don't surface plugin management yet;
+if you use Codex through one of those, connect Obris over MCP via an
+MCP connector instead.
 
 ## Enable the MCP server (one-time auth)
 
