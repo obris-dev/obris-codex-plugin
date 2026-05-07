@@ -1,6 +1,20 @@
-# Obris Codex Plugin
+<p align="center">
+  <a href="https://obris.ai">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./.assets/obris-logo-light.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./.assets/obris-logo-dark.svg">
+      <img src="./.assets/obris-logo-dark.svg" alt="Obris" width="200">
+    </picture>
+  </a>
+</p>
 
-Connect your [Obris](https://obris.ai) knowledge base to the Codex CLI.
+<p align="center">
+  Use Obris in the Codex CLI.
+</p>
+
+<p align="center">
+  <a href="https://github.com/obris-dev/obris-codex-plugin/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
+</p>
 
 The plugin's goal is to sync your Obris knowledge to disk through the
 `obris` CLI, where Codex can read your topics as files. That's faster
