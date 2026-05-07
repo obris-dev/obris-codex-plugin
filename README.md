@@ -28,9 +28,10 @@ Provides:
   Codex CLI session.
 - **`@obris-sync` skill**: Sync a topic to a local directory (pulls
   remote items, pushes local edits, bulk-uploads via `--add-all`,
-  unlinks tracked files, manages exclude/include rules per directory).
+  manages exclude/include rules per directory).
 - **`@obris-add` skill**: Push a single local file into a synced topic.
 - **`@obris-link` skill**: Relink a renamed file to its remote item.
+- **`@obris-unlink` skill**: Stop syncing a file without deleting either side.
 - **`@obris-auth` skill**: Set up Obris CLI authentication.
 
 ## Common workflows

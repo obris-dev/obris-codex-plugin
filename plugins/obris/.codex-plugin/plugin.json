@@ -1,7 +1,7 @@
 {
   "name": "obris",
   "description": "Connect your Obris knowledge base to Codex. Access topics and knowledge via MCP, sync files to local directories via CLI.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Obris",
     "url": "https://obris.ai"
